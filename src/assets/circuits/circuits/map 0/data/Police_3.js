@@ -1,0 +1,1 @@
+var json_Police_3 = {"type":"FeatureCollection","name":"Police_3","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"nom":"Police"},"geometry":{"type":"Point","coordinates":[10.80815772605183,36.466463717537351]}}]}

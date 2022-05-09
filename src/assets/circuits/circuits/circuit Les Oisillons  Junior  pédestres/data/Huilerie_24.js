@@ -1,0 +1,1 @@
+var json_Huilerie_24 = {"type":"FeatureCollection","name":"Huilerie_24","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"nom":"HUILERIE GATTOUSSI","contact":"98 326 248","adresse":"Huilerie Solima Maamoura"},"geometry":{"type":"Point","coordinates":[10.81097650924489,36.48173633426012]}}]}

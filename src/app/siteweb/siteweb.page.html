@@ -1,0 +1,86 @@
+<ion-header>
+  <ion-toolbar>
+   
+    <ion-title>Rando Maamoura</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-grid class="ion-text-center">
+      <ion-row  > 
+        
+        <ion-col  size="4"  >
+          
+          <select   (change)='ChangeNom(this.$event.target.value)' style="width: 100%;"> 
+            <option disabled selected>Nom</option>
+
+            <option value='Circuit Entre Terre et Mer'>Circuit Entre Terre et Mer</option>
+            <option value='Circuit Forêt de noix'>Circuit Forêt de noix</option>
+            <option value='Circuit Grande assiette du Cap-Bon'>Circuit Grande assiette du Cap-Bon</option>
+
+            <option value='Circuit Jabroun'>Circuit Jabroun</option>
+            <option value='Circuit Les Oisillons'>Circuit Les Oisillons</option>
+            <option value='Circuit Petite assiette du Cap-Bon'>Circuit Petite assiette du Cap-Bon</option> 
+            
+            <option value='Circuit Plage de Boumnir'>Circuit Plage de Boumnir</option>
+            <option value='Circuit Quartier des deux Mosquées'>Circuit Quartier des deux Mosquées</option>
+            <option value='Circuit Tracé antique'>Circuit Tracé antique</option>
+          
+          </select>
+      
+       </ion-col>
+       <ion-col  size="1"  >
+  
+    
+     </ion-col>
+        <ion-col size="3">
+          <select  (change)='ChangeNiveau(this.$event.target.value)'> 
+            <option disabled selected>Niveau</option>
+
+            <option value='Junior' >Junior</option>
+            <option value='Medium' >Medium</option>
+            <option value='Senior' >Senior</option>
+          </select>
+       </ion-col>  
+       <ion-col  size="1"  >
+  
+    
+      </ion-col>
+       <ion-col size="3">
+        <select   (change)='ChangeType(this.$event.target.value)'> 
+          
+<option disabled selected>Type</option>
+<option  value='pédestres'>pédestres</option>
+<option  value='cyclables'>cyclables</option>
+</select>
+     </ion-col>  
+    </ion-row  > 
+  </ion-grid>
+
+
+    <ion-content>
+      <iframe *ngIf='map=="1" && !auccun' src='assets/circuits/circuits/circuit Entre Terre et Mer  Medium  cyclables/index.html' style="height: 80%;width: 100%;"></iframe>
+      <iframe *ngIf='map=="2" && !auccun' src='assets/circuits/circuits/circuit Entre Terre et Mer  Medium  pédestres/index.html' style="height: 80%;width: 100%;"></iframe>
+      <iframe *ngIf='map=="3" && !auccun' src='assets/circuits/circuits/circuit Forêt de noix  Senior  cyclables/index.html' style="height: 80%;width: 100%;"></iframe>
+      <iframe *ngIf='map=="4" && !auccun' src='assets/circuits/circuits/circuit Forêt de noix  Senior  pédestres/index.html' style="height: 80%;width: 100%;"></iframe>
+      <iframe *ngIf='map=="5" && !auccun' src='assets/circuits/circuits/circuit Grande assiette du Cap-Bon  Senior  cyclables/index.html' style="height: 80%;width: 100%;"></iframe>
+      <iframe *ngIf='map=="6" && !auccun' src='assets/circuits/circuits/circuit Jabroun  Medium  cyclables/index.html' style="height: 80%;width: 100%;"></iframe>
+      <iframe *ngIf='map=="7" && !auccun' src='assets/circuits/circuits/circuit Jabroun  Medium  pédestres/index.html' style="height: 80%;width: 100%;"></iframe>
+      <iframe *ngIf='map=="8" && !auccun' src='assets/circuits/circuits/circuit Les Oisillons  Junior  pédestres/index.html' style="height: 80%;width: 100%;"></iframe>
+      <iframe *ngIf='map=="9" && !auccun' src='assets/circuits/circuits/circuit Petite assiette du Cap-Bon  Junior  cyclables/index.html' style="height: 80%;width: 100%;"></iframe>
+      <iframe *ngIf='map=="10" && !auccun' src='assets/circuits/circuits/circuit Petite assiette du Cap-Bon  Junior  pédestres/index.html' style="height: 80%;width: 100%;"></iframe>
+      <iframe *ngIf='map=="11" && !auccun' src='/assets/circuits/circuits/circuit Plage de Boumnir  Junior  pédestres/index.html' style="height: 80%;width: 100%;"></iframe>
+      <iframe *ngIf='map=="12" && !auccun' src='assets/circuits/circuits/circuit Quartier des deux Mosquées  Junior  cyclables/index.html' style="height: 80%;width: 100%;"></iframe>
+      <iframe *ngIf='map=="13" && !auccun' src='assets/circuits/circuits/circuit Quartier des deux Mosquées  Junior  pédestres/index.html' style="height: 80%;width: 100%;"></iframe>
+      <iframe *ngIf='map=="14" && !auccun' src='/assets/circuits/circuits/circuit Tracé antique  Medium  pédestres/index.html' style="height: 80%;width: 100%;"></iframe>
+
+      <div class="auccun" *ngIf='auccun' style="text-align: center;color:red" >
+        <br>
+        <br>
+        
+        <ion-label><h1>No Circuit</h1></ion-label>
+      </div>
+      <iframe *ngIf='map=="0"' src='assets/circuits/circuits/map 0/index.html' style="height: 80%;width: 100%;"></iframe>
+
+    </ion-content>
+</ion-content>

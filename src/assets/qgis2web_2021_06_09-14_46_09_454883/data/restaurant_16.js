@@ -1,0 +1,1 @@
+var json_restaurant_16 = {"type":"FeatureCollection","name":"restaurant_16","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":"3"},"geometry":{"type":"Point","coordinates":[10.811939909635205,36.463347588010038]}}]}

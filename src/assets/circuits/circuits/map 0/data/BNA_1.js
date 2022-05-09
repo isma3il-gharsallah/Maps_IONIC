@@ -1,0 +1,1 @@
+var json_BNA_1 = {"type":"FeatureCollection","name":"BNA_1","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"nom":"BNA"},"geometry":{"type":"Point","coordinates":[10.803001571496614,36.467223655567324]}}]}

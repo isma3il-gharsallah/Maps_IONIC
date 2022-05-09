@@ -1,0 +1,1 @@
+var json_pointdevue_13 = {"type":"FeatureCollection","name":"pointdevue_13","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":"5"},"geometry":{"type":"Point","coordinates":[10.815768810861467,36.480236480035416]}}]}

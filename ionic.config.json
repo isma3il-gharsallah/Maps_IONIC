@@ -1,0 +1,7 @@
+{
+  "name": "ideal_info",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

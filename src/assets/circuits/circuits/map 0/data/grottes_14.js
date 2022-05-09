@@ -1,0 +1,1 @@
+var json_grottes_14 = {"type":"FeatureCollection","name":"grottes_14","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"nom":"grottes"},"geometry":{"type":"Point","coordinates":[10.802871933545228,36.458089676925709]}}]}

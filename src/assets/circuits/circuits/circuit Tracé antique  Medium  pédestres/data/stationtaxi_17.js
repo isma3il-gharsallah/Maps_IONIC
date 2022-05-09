@@ -1,0 +1,1 @@
+var json_stationtaxi_17 = {"type":"FeatureCollection","name":"stationtaxi_17","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"nom":"station taxi","adresse":"rue el Hbib Borgiba"},"geometry":{"type":"Point","coordinates":[10.804316336037152,36.465547072443215]}}]}

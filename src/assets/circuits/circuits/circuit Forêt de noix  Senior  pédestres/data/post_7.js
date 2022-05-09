@@ -1,0 +1,1 @@
+var json_post_7 = {"type":"FeatureCollection","name":"post_7","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"nom":"post affice","adresse":"El Maamoura","temp":"De 08h00 à 15h00"},"geometry":{"type":"Point","coordinates":[10.808604685502706,36.46698384593531]}}]}

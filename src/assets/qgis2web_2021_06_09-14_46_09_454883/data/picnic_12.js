@@ -1,0 +1,1 @@
+var json_picnic_12 = {"type":"FeatureCollection","name":"picnic_12","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":"2"},"geometry":{"type":"Point","coordinates":[10.816286240024864,36.48059406722259]}}]}
